@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context="com.saik0116algonquinlive.stylesandthemesdemo.MainActivity"
+    android:background="#ffe">
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Button One"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/button_background_selector"
+        android:textColor="@android:color/white"/>
+
+    <Button
+        android:onClick="moveToSecondActivity"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Second Activity"
+        android:textColor="@color/button_color_selector"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textStyle="bold"
+        android:text="Small Text"
+         />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium text"
+        android:textStyle="italic"
+         />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text" />
+
+    <TextView
+        style="@style/AppXLText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra large text"
+        />
+
+    <TextView
+        style="@style/AppXLightText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra large Light"
+         />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="30sp"
+        android:textColor="#f00"
+        android:text="saik0116"
+        />
+
+    <TextView
+        android:id="@+id/txvGradient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Josh"
+        android:textStyle="bold"
+        android:textSize="50sp"/>
+
+    <TextView
+        android:id="@+id/txvShadow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Saikaly"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#616161"
+        android:shadowColor="#5000"
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"/>
+
+
+
+</LinearLayout>
